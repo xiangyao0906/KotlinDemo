@@ -1,6 +1,10 @@
 package com.yizhilu.xiangyao
 
 
+/**
+ *
+ * kotlin - map
+ * */
 fun main(args: Array<String>) {
     haha()
 
