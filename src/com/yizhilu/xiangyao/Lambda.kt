@@ -10,6 +10,8 @@ fun main(args: Array<String>) {
 //    用于定义函数：
     val foo = { str: String -> println(str) }
 
+    val personName={person:Person-> println(person)}
+
 
     foo("shakalaka")
 
@@ -19,6 +21,8 @@ fun main(args: Array<String>) {
 
 
     foo4(Person("尼古拉斯*赵四", 23), { println(it) })
+
+    personName(Person("张三丰",26))
 
 
 }

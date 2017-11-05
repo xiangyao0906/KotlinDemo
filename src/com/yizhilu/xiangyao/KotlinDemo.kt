@@ -14,10 +14,10 @@ fun main(args: Array<String>) {
 fun haha() {
     val mapOf = mapOf<String, String>("xiangyao" to "向垚")
 
-    print(mapOf["xiangyao"])
+    println(mapOf["xiangyao"])
 
     for (o in mapOf) {
-        print(o.key)
+        println("key:"+o.key+"     value:"+o.value)
     }
 
 
