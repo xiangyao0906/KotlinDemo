@@ -1,6 +1,5 @@
 package com.yizhilu.xiangyao_prartone
 
-import java.util.*
 
 
 fun main(args: Array<String>) {
